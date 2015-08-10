@@ -3,6 +3,7 @@ package kr.pe.junho85;
 import com.google.common.base.Joiner;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
+import kr.pe.junho85.domain.model.command.TistoryBrainDotsArticle;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -25,7 +26,7 @@ public class TistoryClient {
 
     private static final String CLIENT_ID = "";
     private static final String SECRET_KEY = "";
-    private static final String REDIRECT_URI = "";
+    private static final String REDIRECT_URI = "http://labs.junho85.pe.kr/tistory";
 
     private static final String TARGET_URL = "junho85.pe.kr";
     private static final String WRITE_API_URL = "https://www.tistory.com/apis/post/write";

@@ -1,4 +1,4 @@
-package kr.pe.junho85;
+package kr.pe.junho85.domain.model.command;
 
 import lombok.Data;
 
@@ -11,3 +11,4 @@ public class TistoryBrainDotsArticle {
 
     private String postId; // only modify
 }
+
